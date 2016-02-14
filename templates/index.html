@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>Soundcloud Downloader</title>
+	
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link href='/static/css/style.css' rel='stylesheet' type='text/css'>
+	
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+<body>
+	<div class="grid-container"> 
+		<form action="localhost:5000/" method="post">
+			<input type="email" name="username" placeholder="Soundcloud Email"><br>
+			<input type="password" name="password" placeholder="Soundcloud Password"><br>
+			<input type='number' value='1'>
+			<input type="submit" placeholder="Download Your Latest 200 Soundcloud Jamz">
+		</form>
+		<script src="/static/js/script.js"></script>
+	</div>
+</body>
+</html>
