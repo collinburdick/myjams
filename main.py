@@ -1,6 +1,6 @@
-import os, requests, json, ast, time, soundcloud, urllib, string, urllib2, cgi, cgitb, zipfile
+import os, soundcloud, urllib, string, zipfile
 
-from flask import Flask, render_template, url_for, redirect, make_response, request, send_from_directory
+from flask import Flask, render_template, request, send_from_directory
 
 app = Flask(__name__, static_url_path='')
 app.SECRET_KEY = os.urandom(24)
